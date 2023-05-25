@@ -1,1 +1,7 @@
-
+s1=int(input("enter first side:"))
+s2=int(input("enter second side:"))
+s3=int(input("enter third side:"))
+if (s1+s3>s2) and (s2+s3>s1) and (s2+s3>s1):
+        print("triangle is possible")
+else:
+        print("triangle is not possible")
